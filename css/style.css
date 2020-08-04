@@ -1,0 +1,89 @@
+.main-tabs-docs {
+    margin-top: 10%;
+    margin-left: 7%;
+    width: fit-content;
+}
+
+.default-color {
+  background-color : white !important;
+}
+
+.featurette-divider{
+    margin-top: 4rem !important;
+}
+
+.insto-buttons{
+  background-color: deeppink!important;
+}
+.logo{
+  width: 5rem;
+  margin-right: 0rem;
+  margin-top: 2%;
+}
+
+.deepskyblue-text{
+  color: deepskyblue;
+}
+.nav-item {
+  padding-right: 1rem;
+}
+
+.navbar-brand{
+  margin-left: 10%;
+  width: 20%;
+}
+
+.product-Name{
+  padding:0.1rem !important;
+  text-align: center;
+}
+.nav-link{
+    color: black !important;
+    font-weight: 800;
+    font-family: arial,sans-serif;
+}
+
+.card-text-stats{
+  font-size:  1.3rem !important;
+  color: white!important;
+}
+
+.bg-info-stats{
+  background-color: hotpink ;
+}
+
+
+.sidenav {
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 15%;
+  left: 3%;
+ 
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: hotpink;
+  font-weight: bold;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: deeppink;
+}
+
+.main {
+  margin-left: 15%; /* Same width as the sidebar + left position in px */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
